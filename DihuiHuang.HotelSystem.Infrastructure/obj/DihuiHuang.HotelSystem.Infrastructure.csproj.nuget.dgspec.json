@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dh\\source\\repos\\DihuiHuang.HotelSystem\\DihuiHuang.HotelSystem.Infrastructure\\DihuiHuang.HotelSystem.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dh\\source\\repos\\DihuiHuang.HotelSystem\\DihuiHuang.HotelSystem.Core\\DihuiHuang.HotelSystem.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dh\\source\\repos\\DihuiHuang.HotelSystem\\DihuiHuang.HotelSystem.Core\\DihuiHuang.HotelSystem.Core.csproj",
+        "projectName": "DihuiHuang.HotelSystem.Core",
+        "projectPath": "C:\\Users\\Dh\\source\\repos\\DihuiHuang.HotelSystem\\DihuiHuang.HotelSystem.Core\\DihuiHuang.HotelSystem.Core.csproj",
+        "packagesPath": "C:\\Users\\Dh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dh\\source\\repos\\DihuiHuang.HotelSystem\\DihuiHuang.HotelSystem.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dh\\source\\repos\\DihuiHuang.HotelSystem\\DihuiHuang.HotelSystem.Infrastructure\\DihuiHuang.HotelSystem.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dh\\source\\repos\\DihuiHuang.HotelSystem\\DihuiHuang.HotelSystem.Infrastructure\\DihuiHuang.HotelSystem.Infrastructure.csproj",
+        "projectName": "DihuiHuang.HotelSystem.Infrastructure",
+        "projectPath": "C:\\Users\\Dh\\source\\repos\\DihuiHuang.HotelSystem\\DihuiHuang.HotelSystem.Infrastructure\\DihuiHuang.HotelSystem.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Dh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dh\\source\\repos\\DihuiHuang.HotelSystem\\DihuiHuang.HotelSystem.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Dh\\source\\repos\\DihuiHuang.HotelSystem\\DihuiHuang.HotelSystem.Core\\DihuiHuang.HotelSystem.Core.csproj": {
+                "projectPath": "C:\\Users\\Dh\\source\\repos\\DihuiHuang.HotelSystem\\DihuiHuang.HotelSystem.Core\\DihuiHuang.HotelSystem.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

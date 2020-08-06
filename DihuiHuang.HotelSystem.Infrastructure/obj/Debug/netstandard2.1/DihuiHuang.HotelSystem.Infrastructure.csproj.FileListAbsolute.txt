@@ -1,0 +1,12 @@
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Infrastructure\bin\Debug\netstandard2.1\DihuiHuang.HotelSystem.Infrastructure.deps.json
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Infrastructure\bin\Debug\netstandard2.1\DihuiHuang.HotelSystem.Infrastructure.dll
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Infrastructure\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Infrastructure\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Infrastructure\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Infrastructure.AssemblyInfo.cs
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Infrastructure\bin\Debug\netstandard2.1\DihuiHuang.HotelSystem.Infrastructure.pdb
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Infrastructure\bin\Debug\netstandard2.1\DihuiHuang.HotelSystem.Core.dll
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Infrastructure\bin\Debug\netstandard2.1\DihuiHuang.HotelSystem.Core.pdb
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Infrastructure\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Infrastructure\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Infrastructure.csproj.CopyComplete
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Infrastructure\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Infrastructure.dll
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Infrastructure\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Infrastructure.pdb

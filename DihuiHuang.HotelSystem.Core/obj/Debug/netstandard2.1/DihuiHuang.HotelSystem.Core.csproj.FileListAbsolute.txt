@@ -1,0 +1,9 @@
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Core\bin\Debug\netstandard2.1\DihuiHuang.HotelSystem.Core.deps.json
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Core\bin\Debug\netstandard2.1\DihuiHuang.HotelSystem.Core.dll
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Core\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Core.csprojAssemblyReference.cache
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Core\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Core.AssemblyInfoInputs.cache
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Core\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Core.AssemblyInfo.cs
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Core\bin\Debug\netstandard2.1\DihuiHuang.HotelSystem.Core.pdb
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Core\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Core.dll
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Core\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Core.pdb
+C:\Users\Dh\source\repos\DihuiHuang.HotelSystem\DihuiHuang.HotelSystem.Core\obj\Debug\netstandard2.1\DihuiHuang.HotelSystem.Core.csproj.CoreCompileInputs.cache
