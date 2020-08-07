@@ -20,6 +20,7 @@ namespace DihuiHuang.HotelSystem.Infrastructure.Data
         {
             modelBuilder.Entity<Room>(ConfigureRoom);
             modelBuilder.Entity<Customer>(ConfigureCustomer);
+            modelBuilder.Entity<Service>(ConfigureService);
         }
 
         private void ConfigureCustomer(EntityTypeBuilder<Customer> modelBuilder)
@@ -37,13 +38,12 @@ namespace DihuiHuang.HotelSystem.Infrastructure.Data
             modelBuilder.HasOne(r => r.RoomType).WithMany(rt => rt.Rooms).HasForeignKey(r=>r.RTCode);
         }
 
-        //private void ConfigureService(EntityTypeBuilder<Service> modelBuilder)
-        //{
-        //    modelBuilder.HasKey(r => r.Id);
-        //    modelBuilder.Property(r => r.RoomNo).HasColumnType("int");
-        //    //modelBuilder.Property(r => r.RTCode).HasColumnType("int");
-        //    modelBuilder.HasOne(r => r.RoomType).WithMany(rt => rt.Rooms).HasForeignKey(r => r.RTCode);
-        //}
+        private void ConfigureService(EntityTypeBuilder<Service> modelBuilder)
+        {
+            modelBuilder.HasKey(s => s.Id);
+            modelBuilder.HasOne(s => s.Room).WithMany(r => r.Services).HasForeignKey(s => s.RoomNo);
+            //modelBuilder.Property(s=>s.)
+        }
 
     }
 }

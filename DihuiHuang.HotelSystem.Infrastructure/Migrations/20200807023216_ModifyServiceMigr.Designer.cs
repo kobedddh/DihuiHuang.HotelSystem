@@ -4,14 +4,16 @@ using DihuiHuang.HotelSystem.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DihuiHuang.HotelSystem.Infrastructure.Migrations
 {
     [DbContext(typeof(HotelSystemDbContext))]
-    partial class HotelSystemDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200807023216_ModifyServiceMigr")]
+    partial class ModifyServiceMigr
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -113,6 +115,9 @@ namespace DihuiHuang.HotelSystem.Infrastructure.Migrations
                     b.Property<decimal>("Amount")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int?>("RoomId")
+                        .HasColumnType("int");
+
                     b.Property<int>("RoomNo")
                         .HasColumnType("int");
 
@@ -125,7 +130,7 @@ namespace DihuiHuang.HotelSystem.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("RoomNo");
+                    b.HasIndex("RoomId");
 
                     b.ToTable("Services");
                 });
@@ -152,9 +157,7 @@ namespace DihuiHuang.HotelSystem.Infrastructure.Migrations
                 {
                     b.HasOne("DihuiHuang.HotelSystem.Core.Entities.Room", "Room")
                         .WithMany("Services")
-                        .HasForeignKey("RoomNo")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("RoomId");
                 });
 #pragma warning restore 612, 618
         }

@@ -15,5 +15,6 @@ namespace DihuiHuang.HotelSystem.Core.ServiceInterfaces
         Task<IEnumerable<CustomerResponseModel>> GetAllCustomers();
         Task<IEnumerable<CustomerResponseModel>> GetCustomerByRoom(int id);
         Task<RoomResponseModel> GetRoomByCustomer(int id);
+
     }
 }
